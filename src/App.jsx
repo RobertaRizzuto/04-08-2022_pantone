@@ -16,7 +16,7 @@ function App() {
       {/* <Component1 {...color}/> */}
 
       {/* --------------TERZA MODALITà (CHILDREN E COMPOSITION PATTERN) */}
-      <Component1><Pantone {...color}/></Component1>
+     <div className="shadow-div"> <Component1><Pantone {...color}/></Component1></div>
     </div>
   );
 }
